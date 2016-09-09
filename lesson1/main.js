@@ -81,6 +81,7 @@
  * - Качество кода !
  * - Замыкания, область видимости !
  *
+ *
  * Обязательно к изучению HTML !
  * http://htmlbook.ru/html, если не ясно как ориентировать можете посмотреть видео уроки http://www.ex.ua/18682940
  * Понятие тэга. Создание каркаса страницы
@@ -105,7 +106,7 @@
  * - Тэги DIV и SPAN
  * 
  *
- *	youtube sorax - video lesson js - на 7 пару
+ *	youtube sorax - video lesson js - изучить до 7 пары
  *	https://www.youtube.com/watch?v=H6G63NKRSi8&list=PL363QX7S8MfSxcHzvkNEqMYbOyhLeWwem
  *
  *
