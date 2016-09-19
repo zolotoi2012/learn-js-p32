@@ -15,6 +15,15 @@ var result = 0;
 
 for (var i = 0; i < operators.length; i++) {
 
+	switch(operators[i]) {
+		case "*":
+
+			break;
+		case "/":
+			
+			break;
+	}
+
 }
 
 var sum = function (a, b) {
@@ -24,6 +33,7 @@ var sum = function (a, b) {
 var minus = function (a, b) {
 
 };
+
 
 
 
