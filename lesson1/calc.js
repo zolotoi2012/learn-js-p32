@@ -13,15 +13,15 @@ for (var i = 0; i < operators.length; i++)
         {
             case '*':
             {
-                value[i+1]=multiplication(value[i],value[i+1]);
-                value[i]=0;
+                values[i+1]=multiplication(values[i],values[i+1]);
+                values[i]=0;
                 if(i>0)operators[i]=operators[i-1];
                 break;  
             };
             case '/':
             {
-                value[i+1]=division(value[i],value[i+1]);
-                value[i]=0;
+                values[i+1]=division(values[i],values[i+1]);
+                values[i]=0;
                 if(i>0)operators[i]=operators[i-1];
                 break;  
             };
@@ -34,14 +34,14 @@ for (var i = 0; i < operators.length; i++)
         {
             case '+':
             {
-                value[i+1]=addition(value[i],value[i+1]);
-                value[i]=0;
+                values[i+1]=addition(value[i],value[i+1]);
+                values[i]=0;
                 break;  
             };
             case '-':
             {
-                value[i+1]=subtracting(values[i],values[i+1]);
-                value[i]=0;
+                values[i+1]=subtracting(values[i],values[i+1]);
+                values[i]=0;
                 break;  
             };
         }   
@@ -73,5 +73,5 @@ function division(a, b)
 
 
 
-result=value[value.length-1]
+result=values[values.length-1]
 console.log(result);
